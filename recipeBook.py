@@ -10,12 +10,11 @@
 #       
 #      The added functionality is the access to cloud databases.
 # 4. What was the hardest part?
-#      
+#      To be honest, this wasn't very hard. I only had to find a good video tutorial, and I was fine.
 # 5. How long did it take for me to complete the assignment?
-#      
+#      It only took about 3 hours, including testing to understand firebase admin.
 
 # we'll need this
-import json
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
@@ -87,7 +86,8 @@ def readFile(fileName):
         
 # this function will allow the user to edit the recipe and save the changes
 def editRecipe(fileName):
-    print("Function not implemented yet. If you would like to change a recipe, you must create a new recipe\nand delete the old one.")
+    pass
+
 
 # this function will create a new recipe, whether called from readFile() or main()
 def createFile(newFileName):
